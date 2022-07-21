@@ -11,163 +11,180 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./сss/styles.css" />
   </head>
   <body>
     <header class="header">
-      <a href="./index.html" class="studio"
-        ><span class="web">Web</span>Studio</a
-      >
-      <nav class="header-nav">
-        <ul class="header-list list">
-          <li class="header-item">
-            <a href="./index.html" class="header-link">Студия</a>
-          </li>
-          <li class="header-item">
-            <a href="./portfolio.html" class="header-link current">Портфолио</a>
-          </li>
-          <li class="header-item">
-            <a href="" class="header-link">Контакты</a>
-          </li>
-        </ul>
-      </nav>
-      <a href="mailto:info@devstudio.com" class="header-mail"
-        >info@devstudio.com</a
-      >
-      <a href="tel:+380961111111" class="header-tel">+38 096 111 11 11</a>
-    </header>
-    <main>
-      <section class="hero">
-        <nav class="hero-nav">
-          <ul class="hero-list list">
-            <li class="hero-item">
-              <button type="button" class="hero-btn">Все</button>
+      <div class="container header-container">
+        <a href="./index.html" class="studio"
+          ><span class="web">Web</span>Studio</a
+        >
+        <nav class="header-nav">
+          <ul class="header-list list">
+            <li class="header-item">
+              <a href="./index.html" class="header-link">Студия</a>
             </li>
-            <li class="hero-item">
-              <button type="button" class="hero-btn">Веб-сайты</button>
+            <li class="header-item">
+              <a href="./portfolio.html" class="header-link current"
+                >Портфолио</a
+              >
             </li>
-            <li class="hero-item">
-              <button type="button" class="hero-btn">Приложения</button>
-            </li>
-            <li class="hero-item">
-              <button type="button" class="hero-btn">Дизайн</button>
-            </li>
-            <li class="hero-item">
-              <button type="button" class="hero-btn">Маркетинг</button>
+            <li class="header-item">
+              <a href="" class="header-link">Контакты</a>
             </li>
           </ul>
         </nav>
-        <ul class="descr-list list">
-          <li class="descr-item">
-            <img
-              src="./image/portfolio/portfolio 1.jpg"
-              alt="Веб-сайт"
-              width="370"
-              height="294"
-            />
-            <h3 class="descr-title">Технокряк</h3>
-            <p class="descr-after-title">Веб-сайт</p>
-          </li>
-          <li class="descr-item">
-            <img
-              src="./image/portfolio/portfolio 2.jpg"
-              alt="Дизайн"
-              width="370"
-              height="294"
-            />
-            <h3 class="descr-title">Постер New Orlean vs Golden Star</h3>
-            <p class="descr-after-title">Дизайн</p>
-          </li>
-          <li class="descr-item">
-            <img
-              src="./image/portfolio/portfolio 3.jpg"
-              alt="Приложение"
-              width="370"
-              height="294"
-            />
-            <h3 class="descr-title">Ресторан Seafood</h3>
-            <p class="descr-after-title">Приложение</p>
-          </li>
-          <li class="descr-item">
-            <img
-              src="./image/portfolio/portfolio 4.jpg"
-              alt="Маркетинг"
-              width="370"
-              height="294"
-            />
-            <h3 class="descr-title">Проект Prime</h3>
-            <p class="descr-after-title">Маркетинг</p>
-          </li>
-          <li class="descr-item">
-            <img
-              src="./image/portfolio/portfolio 5.jpg"
-              alt="Приложение"
-              width="370"
-              height="294"
-            />
-            <h3 class="descr-title">Проект Boxes</h3>
-            <p class="descr-after-title">Приложение</p>
-          </li>
-          <li class="descr-item">
-            <img
-              src="./image/portfolio/portfolio 6.jpg"
-              alt="Веб-сайт"
-              width="370"
-              height="294"
-            />
-            <h3 class="descr-title">Inspiration has no Borders</h3>
-            <p class="descr-after-title">Веб-сайт</p>
-          </li>
-          <li class="descr-item">
-            <img
-              src="./image/portfolio/portfolio 7.jpg"
-              alt="Дизайн"
-              width="370"
-              height="294"
-            />
-            <h3 class="descr-title">Издание Limited Edition</h3>
-            <p class="descr-after-title">Дизайн</p>
-          </li>
-          <li class="descr-item">
-            <img
-              src="./image/portfolio/portfolio 8.jpg"
-              alt="Маркетинг"
-              width="370"
-              height="294"
-            />
-            <h3 class="descr-title">Проект LAB</h3>
-            <p class="descr-after-title">Маркетинг</p>
-          </li>
-          <li class="descr-item">
-            <img
-              src="./image/portfolio/portfolio 9.jpg"
-              alt="Приложение"
-              width="370"
-              height="294"
-            />
-            <h3 class="descr-title">Growing Business</h3>
-            <p class="descr-after-title">Приложение</p>
-          </li>
-        </ul>
+        <div class="header-connect">
+          <a href="mailto:info@devstudio.com" class="header-mail"
+            >info@devstudio.com</a
+          >
+          <a href="tel:+380961111111" class="header-tel">+38 096 111 11 11</a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="container">
+          <nav class="hero-nav">
+            <ul class="hero-list list">
+              <li class="hero-item">
+                <button type="button" class="hero-btn">Все</button>
+              </li>
+              <li class="hero-item">
+                <button type="button" class="hero-btn">Веб-сайты</button>
+              </li>
+              <li class="hero-item">
+                <button type="button" class="hero-btn">Приложения</button>
+              </li>
+              <li class="hero-item">
+                <button type="button" class="hero-btn">Дизайн</button>
+              </li>
+              <li class="hero-item">
+                <button type="button" class="hero-btn">Маркетинг</button>
+              </li>
+            </ul>
+          </nav>
+          <ul class="descr-list list">
+            <li class="descr-item">
+              <img
+                src="./image/portfolio/portfolio 1.jpg"
+                alt="Веб-сайт"
+                width="370"
+                height="294"
+              />
+              <h3 class="descr-title">Технокряк</h3>
+              <p class="descr-after-title">Веб-сайт</p>
+            </li>
+            <li class="descr-item">
+              <img
+                src="./image/portfolio/portfolio 2.jpg"
+                alt="Дизайн"
+                width="370"
+                height="294"
+              />
+              <h3 class="descr-title">Постер New Orlean vs Golden Star</h3>
+              <p class="descr-after-title">Дизайн</p>
+            </li>
+            <li class="descr-item">
+              <img
+                src="./image/portfolio/portfolio 3.jpg"
+                alt="Приложение"
+                width="370"
+                height="294"
+              />
+              <h3 class="descr-title">Ресторан Seafood</h3>
+              <p class="descr-after-title">Приложение</p>
+            </li>
+            <li class="descr-item">
+              <img
+                src="./image/portfolio/portfolio 4.jpg"
+                alt="Маркетинг"
+                width="370"
+                height="294"
+              />
+              <h3 class="descr-title">Проект Prime</h3>
+              <p class="descr-after-title">Маркетинг</p>
+            </li>
+            <li class="descr-item">
+              <img
+                src="./image/portfolio/portfolio 5.jpg"
+                alt="Приложение"
+                width="370"
+                height="294"
+              />
+              <h3 class="descr-title">Проект Boxes</h3>
+              <p class="descr-after-title">Приложение</p>
+            </li>
+            <li class="descr-item">
+              <img
+                src="./image/portfolio/portfolio 6.jpg"
+                alt="Веб-сайт"
+                width="370"
+                height="294"
+              />
+              <h3 class="descr-title">Inspiration has no Borders</h3>
+              <p class="descr-after-title">Веб-сайт</p>
+            </li>
+            <li class="descr-item">
+              <img
+                src="./image/portfolio/portfolio 7.jpg"
+                alt="Дизайн"
+                width="370"
+                height="294"
+              />
+              <h3 class="descr-title">Издание Limited Edition</h3>
+              <p class="descr-after-title">Дизайн</p>
+            </li>
+            <li class="descr-item">
+              <img
+                src="./image/portfolio/portfolio 8.jpg"
+                alt="Маркетинг"
+                width="370"
+                height="294"
+              />
+              <h3 class="descr-title">Проект LAB</h3>
+              <p class="descr-after-title">Маркетинг</p>
+            </li>
+            <li class="descr-item">
+              <img
+                src="./image/portfolio/portfolio 9.jpg"
+                alt="Приложение"
+                width="370"
+                height="294"
+              />
+              <h3 class="descr-title">Growing Business</h3>
+              <p class="descr-after-title">Приложение</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <footer class="footer">
-      <a href="./index.html" class="footer-studio"
-        ><span class="web">Web</span>Studio</a
-      >
-      <address class="footer-address">
-        <a
-          href="https://goo.gl/maps/j2xao7N6VXjpigtG7"
-          target="_blank"
-          rel="noopener noreferrer nofollow "
-          class="footer-address-title"
-          >г. Киев, пр-т Леси Украинки, 26
-        </a>
-        <a href="mailto:info@example.com" class="footer-mail"
-          >info@example.com</a
+      <div class="container">
+        <a href="./index.html" class="footer-studio"
+          ><span class="web">Web</span>Studio</a
         >
-        <a href="tel:+380991111111" class="footer-tel">+38 099 111 11 11</a>
-      </address>
+        <address class="footer-address">
+          <a
+            href="https://goo.gl/maps/j2xao7N6VXjpigtG7"
+            target="_blank"
+            rel="noopener noreferrer nofollow "
+            class="footer-address-title"
+            >г. Киев, пр-т Леси Украинки, 26
+          </a>
+          <a href="mailto:info@example.com" class="footer-mail"
+            >info@example.com</a
+          >
+          <a href="tel:+380991111111" class="footer-tel">+38 099 111 11 11</a>
+        </address>
+      </div>
     </footer>
   </body>
 </html>

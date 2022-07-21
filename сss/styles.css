@@ -3,6 +3,32 @@
   --first-text-color: #212121;
   --second-text-color: #757575;
 }
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
+}
+
+.container {
+  outline: 2px solid tomato;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: #212121;
@@ -13,6 +39,21 @@ body {
 }
 
 /* --------header--------- */
+.header {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-list {
+  display: flex;
+  gap: 50px;
+}
+
 .studio {
   font-family: "Raleway";
   font-weight: 700;
@@ -20,6 +61,7 @@ body {
   line-height: 1.19;
   color: #000000;
   text-decoration: none;
+  margin-right: 93px;
 }
 .web {
   font-family: "Raleway";
@@ -73,11 +115,19 @@ body {
   line-height: 1.14;
   color: var(--accent-color);
 }
+
+.header-connect {
+  margin-left: auto;
+  align-items: center;
+  display: flex;
+  gap: 50px;
+}
 /* --------title------- */
 
 .title {
   background: #2f303a;
 }
+
 .pre-title {
   font-weight: 900;
   font-size: 44px;
@@ -86,6 +136,11 @@ body {
   text-transform: uppercase;
   color: #ffffff;
   letter-spacing: 0.06em;
+  padding: 200px 237px 30px;
+}
+.container-btn {
+  padding-left: 485px;
+  padding-bottom: 200px;
 }
 
 .btn {
@@ -95,6 +150,8 @@ body {
   background: var(--accent-color);
   letter-spacing: 0.06em;
   cursor: pointer;
+  align-items: center;
+  padding: 10px 32px;
 }
 .btn:hover {
   background: #188ce8;
@@ -113,6 +170,9 @@ body {
 }
 
 /* ------description-------- */
+.description-container {
+  margin: 94px auto;
+}
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -126,6 +186,17 @@ body {
   margin: -1px;
 }
 
+.description-list {
+  display: flex;
+  gap: 30px;
+  justify-content: space-evenly;
+}
+
+.description-item {
+  max-width: 270px;
+  max-height: 101px;
+}
+
 .description-title {
   font-weight: 700;
   font-size: 14px;
@@ -133,15 +204,20 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--first-text-color);
+  margin-bottom: 10px;
 }
 .description-after-title {
   font-size: 14px;
-  line-height: 1.17;
+  line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--second-text-color);
 }
 
 /*---------work----------*/
+
+.work-container {
+  margin-top: 94px;
+}
 
 .work-title {
   font-weight: 700;
@@ -150,6 +226,12 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--first-text-color);
+  padding-bottom: 50px;
+}
+
+.work-list {
+  display: flex;
+  gap: 30px;
 }
 
 /*---------team----------*/
