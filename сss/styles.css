@@ -227,6 +227,10 @@ body {
 
 /*---------work----------*/
 
+.work {
+  padding-top: 0px;
+}
+
 .work-title {
   font-weight: 700;
   font-size: 36px;
@@ -235,7 +239,6 @@ body {
   letter-spacing: 0.03em;
   color: var(--first-text-color);
   margin-bottom: 50px;
-  margin-top: -94px;
 }
 
 .work-list {
