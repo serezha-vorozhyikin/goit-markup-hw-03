@@ -384,6 +384,10 @@ body {
   border-bottom: 1px solid #eeeeee;
 }
 
+.descr-title-main {
+  padding: 20px 24px;
+}
+
 .descr-title {
   font-weight: 700;
   font-size: 18px;
